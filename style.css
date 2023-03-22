@@ -1,0 +1,280 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.header {
+	background: url(фото/Rectangle\ 1.png) center center no-repeat  fixed;;
+	background-size: cover;
+}
+
+.container {
+	width: 1190px;
+	margin: 0 auto;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	margin-top: 40px;
+	width: 292px;
+	height: 91px;
+}
+
+.nav {
+	display: flex;
+	list-style: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin-top: 76px;
+}
+
+.body2 {
+	background-color: forestgreen;
+}
+
+.fist__title {
+	padding-top: 72px;
+	width: 533px;
+	height: 164px;
+}
+
+.header__title {
+	font-size: 90px;
+	line-height: 82px;
+	font-family: 'Montserrat';
+	font-weight: 900;
+}
+
+.nav li {
+	padding-left: 22px;
+}
+
+.nav li a {
+	text-decoration: none;
+	color: white;
+	padding: 6px 15px;
+}
+
+.nav li a:hover {
+	background-color: black;
+	border-radius: 5px;
+}
+
+.first__description {
+	padding-top: 100px;
+	padding-bottom: 180px;
+}
+
+.header__description {
+	width: 494px;
+	height: 84px;
+	font-size: 20px;
+	color: white;
+	font-weight: 500;
+	font-family: 'PT Serif';
+}
+
+.cards {
+	width: 1190px;
+	margin: 0 auto;	
+}
+
+.second__header {
+	margin-top: 50px;
+	margin-bottom: 83px;
+}
+
+.service__header {
+	font-size: 50px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.cards__content {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+.card__description__heart {
+	margin-top: 60px;
+	font-family: 'PT Serif', serif;
+	color: #161616;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	width: 165.78px;
+	height: 56px;
+}
+
+.card__description__tool {
+	margin-top: 60px;
+	font-family: 'PT Serif', serif;
+	color: #161616;
+	font-size: 20px;
+	width: 163.77px;
+	height: 56px;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+.card__description__lamp {
+	position: absolute;
+	width: 180.77px;
+	height: 56px;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	font-family: 'PT Serif', serif;
+	margin-top: 45px;
+}
+
+.card__description__navigation {
+	margin-top: 45px;
+	font-family: 'PT Serif', serif;
+	color: #161616;
+	font-size: 20px;
+	width: 160.76px;
+	height: 56px;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+.middle__container {
+	background: #130E27;
+}
+
+.middle__inner {
+	height: 124px;
+	justify-content: space-between;
+	display: flex;
+	width: 1190px;
+	margin: 0 auto;	
+}
+
+.description__middle {
+	padding-top: 34px;
+	width: 611px;
+	height: 56px;
+	color: white;
+	font-size: 20px;
+}
+
+.button__red {
+	width: 270px;
+	height: 64px;
+	margin-top: 34px;
+	background-color: red;
+	color: white;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 27px;
+}
+
+.cards__pricing__container {
+	background-color: #EFEFEF;
+	padding-bottom: 70px;
+}
+.cards__pricing {
+	width: 1190px;
+	margin: 0 auto;
+}
+
+.cards__pricing__content {
+	background-color: #FFFF;
+	width: 340px;
+	height: 460px;
+}
+
+.prcing__title {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 61px;
+}
+
+.cards__main {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.cards__pricing__inner {
+	padding-left: 20px;
+	width: 360px;
+	height: 460px;
+	padding-bottom: 70px;
+}
+
+.cards__top {
+	font-family: 'PT Serif';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 28px;
+	padding-top: 35px;
+}
+
+.cards__title {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 61px;
+	color: red;
+	padding: 40px 30px;
+}
+
+.cards__price__content {
+	font-family: 'PT Serif';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 28px;
+	padding-left: 94px;
+	padding-right: 94px;
+}
+
+.cards__price {
+	height: 50px;
+	width: 205px;
+	margin-top: 40px;
+	margin-bottom: 36px;
+	border-radius: 5px;
+	background-color: red;
+	color: #FFFF;
+}
+
+.end__container {
+	background-color: #130E27;
+}
+
+.end__inner {
+	width: 1190px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.end__description {
+	color: #FFFF;
+	padding: 81px 0px;
+}
+
+.end__img {
+	padding: 61px 0px;
+}
